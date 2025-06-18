@@ -1,0 +1,15 @@
+First, unzip the ZIP file.
+I recommend using Visual Code Studio; first, open the application (if it is not installed, you can install it via the following link: https://code.visualstudio.com/download); File>Open Folder or Explorer (Ctrl + Shift + E) >
+Open Folder; Click on the appropriate folder, currently named "Scaler".
+Then open the terminal (Ctrl+ ö), I recommend using Git bash (you may need to install the Git Extension package in VS Code, which you can access by pressing Ctrl + Shift + X if you cannot find it in the side menu);
+Then open the terminal twice, one for the frontend in the Client/ folder, which you can access with "cd client" [it is important that you are in the scaler/ folder when you type this], and the other for the backend, which you can access in the server folder, similarly, but with "cd server" in the terminal; 
+You can access the client side (frontend) with {npm run dev}, and the server side (backend) with python3 manage.py runserver 8080 (you don't have to specify port 8080, it will run on port 8000 by default).
+The documentation also includes a user guide.
+---------------------------------------------------------
+Django admin site: (localhost:8080 (or if the default port is :8000)
+username: admin
+password: 12345678
+---------------------------------------------------------
+(React+Next) Frontend site: (localhost:3000)
+username: Peter_Smith
+password: Ford1234
